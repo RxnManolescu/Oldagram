@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 13px;
+    color: #000000;
+    background-color: rgb(214, 210, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 375px;
+    background-color: #FFF;
+}
+
+hr {
+    margin: 0
+}
+
+main {
+    width: 375px;
+}
+
+.container {
+    width: 375px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    padding-bottom: 5px;
+}
+
+.header-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.logo-img {
+    width: 127px;
+}
+
+.user-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.painter-logo-img {
+    width: 34px;
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.painter-name {
+    margin: 0;
+    padding-top: 10px;
+    line-height: 16px;
+}
+
+.painter-location {
+    margin: 0;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.painter-image {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icons {
+    display: flex;
+    margin: 10px;
+}
+
+.icon {
+    width: 22px;
+    margin-right: 15px;
+}
+
+.icon:hover,
+.icon:focus {
+    opacity: 0.5;
+}
+
+.likes {
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.comment {
+    margin-left: 10px;
+}
+
+span {
+    font-weight: 700;
+}
